@@ -53,7 +53,7 @@ Configuration HelloWorld {
 >   # Import the module that contains the File resource.
 >   Import-DscResource -ModuleName PsDesiredStateConfiguration
 >   Import-DscResource -ModuleName xWebAdministration
->
+>. }
 > ```
 
 Save the file as "HelloWorld.ps1".
